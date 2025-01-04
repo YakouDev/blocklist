@@ -19,7 +19,7 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          git remote set-url origin "https://${{ secrets.GH_TOKEN }}@github.com/lepasid/blocklist.git"
+          git remote set-url origin "https://${{ secrets.GH_TOKEN }}@github.com/YakouDev/blocklist.git"
 
       - name: Set up time zone
         run: echo "TZ=Asia/Jakarta" >> $GITHUB_ENV
